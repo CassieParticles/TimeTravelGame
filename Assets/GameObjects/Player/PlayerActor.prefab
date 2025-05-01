@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1612123788375760389}
   - component: {fileID: 9100220653186971310}
   - component: {fileID: 9188409542573496328}
-  - component: {fileID: 4599549378948833457}
+  - component: {fileID: 6842102259863484423}
   m_Layer: 0
-  m_Name: Player
+  m_Name: PlayerActor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,7 +139,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &4599549378948833457
+--- !u!114 &6842102259863484423
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,15 +148,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5668842856412892181}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 403b63056019650418b7f61259da30ba, type: 3}
+  m_Script: {fileID: 11500000, guid: 22c59fc7389f8e647bd462adc7d699a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputActions:
-    m_Name: Input Actions
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 6c24d1eb-80ff-4af2-975c-082aa008da82
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
